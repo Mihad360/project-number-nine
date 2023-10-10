@@ -9,7 +9,7 @@
     As the requirments i has to made two more routers as i made about and event section 
     and i completed those two section as my idea.
 ⚫ Bonus section ---
-    Then i have completed the responsive and the bonus section with the requirments of rules and also does the section of aos packages.
+    At first i have completed the responsive part. 
 
 ⚫ Here is the 
     Live link: https://roomy-wire.surge.sh/
