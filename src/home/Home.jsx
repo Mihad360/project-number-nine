@@ -3,11 +3,16 @@ import Details from "./Details";
 import Sectiontwo from "./Sectiontwo";
 import Banner from "../header/Banner";
 import Writers from "./Writers";
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
 
 
 const Home = () => {
 
-    
+    useEffect(()=>{
+        Aos.init();
+    },[])
 
     const details = useLoaderData()
     // console.log(details)
@@ -22,11 +27,13 @@ const Home = () => {
             </div>
             <h1 className="text-3xl font-semibold text-center pt-12 text-black">Entertainers details</h1>
             <p className="text-xl text-center px-5 md:px-0 pt-4">Here you can see our most famous available entertainers books which you can see in details</p>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 px-5 md:px-24 gap-12 py-12" >
-                {
-                    details.map(detail => <Details key={detail.id} detail={detail}></Details>)
-                }
+
+            <div data-aos='fade-up' data-aos-duration='2000'>
+                <div className="grid grid-cols-1 md:grid-cols-2 px-5 md:px-24 gap-12 py-12" >
+                    {
+                        details.map(detail => <Details key={detail.id} detail={detail}></Details>)
+                    }
+                </div>
             </div>
             <div className="bg-gray-100">
                 {/* <Sectionone></Sectionone> */}

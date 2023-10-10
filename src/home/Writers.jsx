@@ -1,7 +1,15 @@
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
 
 const Writers = () => {
+
+    useEffect(() => {
+        Aos.init();
+    }, [])
+
     return (
-        <div>
+        <div data-aos='fade-down' data-aos-duration='2000'>
             <div className="pt-12 pb-14">
                 <h1 className="text-3xl text-center font-semibold px-5 md:px-0 pb-3">Our writers</h1>
                 <p className="text-lg text-center font-medium pb-12 px-5 md:px-0">Those entertainers book you have visited are written by our writters</p>
