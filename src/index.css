@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.font-rubik{
+    font-family: 'Rubik', sans-serif;
+}
+
+.bgpic{
+    background-image: url('https://i.ibb.co/5r9THs7/Untitled-presentation-1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
