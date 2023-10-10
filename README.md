@@ -12,4 +12,4 @@
     At first i have completed the responsive part. then i does the readme.md file. then i done the mcq part. at last i completed the aos package.
 
 ⚫ Here is the 
-    Live link: https://roomy-wire.surge.sh/
+    Live link: https://omniscient-parent.surge.sh/
